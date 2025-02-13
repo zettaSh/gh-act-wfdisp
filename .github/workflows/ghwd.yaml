@@ -21,7 +21,7 @@ jobs:
   log-the-inputs:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "main branch"
+      - run: echo "dev branch"
       - run: |
           echo "Log level: $LEVEL"
           echo "Tags: $TAGS"
